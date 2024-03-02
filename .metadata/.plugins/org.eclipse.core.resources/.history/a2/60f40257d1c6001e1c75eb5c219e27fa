@@ -1,0 +1,10 @@
+package seleniumclass01;
+
+public class Day05_Index {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package Feb28;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Assignment {
+
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://opensource-demo.orangehrmlive.com/");
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//a[@href='http://www.orangehrm.com']")).click();
+		driver.manage().window().maximize();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("(//a[@href='/en/book-a-free-demo/']")).click();
+		
+	
+	
+	}
+
+}

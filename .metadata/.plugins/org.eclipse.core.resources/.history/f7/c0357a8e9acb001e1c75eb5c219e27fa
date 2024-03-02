@@ -1,0 +1,17 @@
+package seleniumclass01;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Feb14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+WebDriver driver = new ChromeDriver();
+driver.get("file:///C:/Users/ivane/Downloads/SELENIUM/Sample9.html");
+driver.findElement(By.xpath("//input[1][@value='bhanu']")).clear();
+driver.findElement(By.linkText("Link")).click();
+	}
+
+}

@@ -1,0 +1,29 @@
+package Feb28;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Assignment {
+
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://opensource-demo.orangehrmlive.com/");
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//a[@href='http://www.orangehrm.com']")).click();
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("(((//button[(text()='Contact Sales')])[2]")).click();
+		driver.findElement(By.cssSelector("//a[@title='Accept Cookies']")).click();
+		
+		//if (title.) {
+			
+		//}
+		//driver.switchTo().window(null)
+		//driver.findElement(By.cssSelector("//a[@title='Accept Cookies']")).click();
+		//Thread.sleep(2000);
+		//driver.findElement(By.cssSelector("(//a/button[@fdprocessedid='gfo50jg']")).click();
+		
+	
+	
+	}
+
+}

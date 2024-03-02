@@ -1,0 +1,15 @@
+package seleniumclass01;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Day04 {
+
+	public static void main(String[] args) {
+	WebDriver driver = new ChromeDriver();
+	
+	
+
+	}
+
+}

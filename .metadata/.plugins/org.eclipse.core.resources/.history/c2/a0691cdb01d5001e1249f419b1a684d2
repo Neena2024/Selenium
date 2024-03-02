@@ -1,0 +1,19 @@
+package Feb26;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ArrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+WebDriver driver= new ChromeDriver();
+// String text = driver.getWindowHandle();  //To get particular window address
+// System.out.println(text);
+driver.get("file:///C:/Users/ivane/Downloads/SELENIUM/ChooseFile.html.html");
+String s = driver.getWindowHandle(); //getting parent window address
+System.out.println(s);
+
+	}
+
+}
