@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[This is from testA]]>
+    </line>
+    <line>
+      <![CDATA[This is from testA]]>
+    </line>
+    <line>
+      <![CDATA[This is from testA]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-04-08T18:17:33 EDT" name="Default suite" finished-at="2024-04-08T18:17:33 EDT" duration-ms="78">
+    <groups>
+    </groups>
+    <test started-at="2024-04-08T18:17:33 EDT" name="Default test" finished-at="2024-04-08T18:17:33 EDT" duration-ms="78">
+      <class name="April08.DemoA">
+        <test-method signature="testA()[pri:0, instance:April08.DemoA@fa49800]" started-at="2024-04-08T18:17:33 EDT" name="testA" finished-at="2024-04-08T18:17:33 EDT" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is from testA]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method signature="testA()[pri:0, instance:April08.DemoA@fa49800]" started-at="2024-04-08T18:17:33 EDT" name="testA" finished-at="2024-04-08T18:17:33 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is from testA]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method signature="testA()[pri:0, instance:April08.DemoA@fa49800]" started-at="2024-04-08T18:17:33 EDT" name="testA" finished-at="2024-04-08T18:17:33 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is from testA]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testA -->
+      </class> <!-- April08.DemoA -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
